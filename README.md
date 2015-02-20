@@ -36,10 +36,7 @@ Apps rendered on the client are done so using Javascript. The first time a parti
 
 Next time this document is requested the request will be fulfilled immediately from the 'render cache' without having to hit the network, request data, or render HTML.
 
-```
-<button>Update Cache</button>
-```
-
+![](presentation/lib/images/request-flow-render-cache.png)
 
 ## Swappable Parts
 
@@ -66,7 +63,7 @@ Just like a traditional client/server model, each view will request its data fro
 
 ## Multi-threaded architecture
 
-Reduced regressions and narrower development scope are not the only advantages. Moving to multiple documents and workers enables us to spread app logic across multiple threads. This enables a single app to better leverage the power of the device it running on.
+Reduced regressions and narrower development scope are not the only advantages. Moving to multiple documents and workers enables us to spread app logic across multiple threads. This enables a single app to better leverage the power of the device it's running on.
 
 ## Macro memory management
 
@@ -76,5 +73,5 @@ Spreading applications across multiple documents and workers we're able to break
 
 ## Conclusion
 
-The dawn the *Service Worker* will shift how web-applications are authored. It is good timing to pitch a new approach to web-app development; an approa]ch that gives the web its best shot at competing with native.
+The dawn the *Service Worker* will shift how web-applications are authored. It is good timing to pitch a new approach to web-app development; an approach that gives the web its best shot at competing with native.
 
