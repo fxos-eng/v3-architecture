@@ -27,6 +27,7 @@ body {
   font-family: Ubuntu, 'sans-serif';
   font-size: 36px;
   font-weight: normal;
+  font-style: italic;
   color: #eee; }
 
 ::selection {

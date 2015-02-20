@@ -2,9 +2,10 @@
 
 Web-apps aren't as fast as they could be. We're building large fragile single-threaded applications that can't leverage the full power of the device they're running on. It's difficult for newcomers to digest the scope of an application and regressions are easy to introduce.
 
-This v3 architectural proposition flips today's web-application development model on its head. Using bleeding edge web-technologies and approaching the problem form an angle that better suits the constraints of our platform.
+This v3 architectural proposition flips today's web-application development model on its head. Using bleeding edge web-technologies and approaching the problem from an angle that better suits the constraints of our platform.
 
-## Concepts:
+## Concepts
+
 1. **Offline caching** assets using Service Worker (js, html, css, images, etc).
 2. **Caching rendered content** for fast subsequent page loads.
 3. **Storing content in the cloud** to allow it to be used across devices.
@@ -83,5 +84,5 @@ Spreading applications across multiple documents and workers we're able to break
 
 ## Conclusion
 
-The dawn the *Service Worker* will shift how web-applications are authored. It is good timing to pitch a new approach to web-app development; an approach that gives the web its best shot at competing with native.
+The dawn the *Service Worker* will shift how web-applications are authored. It's a good time to pitch a new approach to web-app development; an approach that gives the web its best shot at competing with native.
 

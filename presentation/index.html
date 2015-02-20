@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>v3 Architecture</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -45,8 +45,29 @@
 				</section>
 
 				<section>
-					<h2>Offline caching</h2>
-					<p>assets using Service Worker (JS, HTML, CSS, images, ...)</p>
+					<section>
+						<h2>Web-apps aren't fast enough</h2>
+						<p>the platform needs us to change</p>
+					</section>
+					<section>
+						<ul>
+							<li>Brittle</li>
+							<li class="fragment">Single-threaded</li>
+							<li class="fragment">Can't fully leverage device capabilities</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Flip the web-app model on its head</h2>
+					</section>
+					<section>
+						<h2>A new angle</h2>
+						<p>that suits the constraints of our platform</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Offline caching of assets</h2>
+					<p>using Service Worker (JS, HTML, CSS, images, ...)</p>
 				</section>
 
 				<section>
@@ -86,12 +107,21 @@
 					</section>
 
 					<section>
+						<h2>Every view is a document</h2>
+					</section>
+
+					<section>
+						<h2>Communication via agreed contract</h2>
+						<p>Learning from Gecko's 'IPDL'</p>
+					</section>
+
+					<section>
 						<img src="/lib/images/layouts.png"/>
 					</section>
 				</section>
 
 				<section>
-					<h2>Multi threaded architecture</h2>
+					<h2>Multi-threaded architecture</h2>
 					<p>to leverage multiple cores to maximise performance</p>
 				</section>
 
@@ -107,6 +137,19 @@
 
 					<section class="stretch">
 						<img src="/lib/images/workers-killed.png"/>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Conclusion</h1>
+					</section>
+					<section>
+						<h2>Service Workers</h2>
+						<p>paving the way for brand new architecture</p>
+					</section>
+					<section>
+						<h2>Mozilla to lead the way</h2>
 					</section>
 				</section>
 			</div>
