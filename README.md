@@ -72,7 +72,7 @@ Right now our apps run in a single runtime, the window. All the memory our appli
 
 Spreading applications across multiple documents and workers we're able to break our apps down into smaller chunks. When an app runs these chunks can be switched on when needed and switched-off when they're not. This opens up exciting prospects for memory management, and thus a more performant platform.
 
-![](presentation/lib/images/workers-alive.png) ![](presentation/lib/images/workers-killed.png)
+![](presentation/lib/images/killing-workers.png)
 
 ## Conclusion
 
