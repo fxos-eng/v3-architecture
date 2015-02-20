@@ -70,6 +70,12 @@ Each view within an app would become its own HTML document. Parent documents wou
 
 Just like a traditional client/server model, each view will request its data from a corresponding worker. The interface between views and workers is agreed in advance via a 'contract', we refer to this communication channel as a 'bridge'.
 
+### Telemetry
+
+Dividing up our views into separate panels gives us more control over telemetry. For example we can measure performance of individual views giving us more information about where regressions come from.
+
+If we are A/B testing a particular view of the app we can easily record metrics to help us decide which view is the most engagement.
+
 ## Multi-threaded architecture
 
 Reduced regressions and narrower development scope are not the only advantages. Moving to multiple documents and workers enables us to spread app logic across multiple threads. This enables a single app to better leverage the power of the device it's running on.

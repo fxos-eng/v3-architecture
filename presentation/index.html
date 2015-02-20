@@ -44,14 +44,15 @@
 					<h1>v3.0 Architecture</h1>
 				</section>
 
-				<section>
+				<!-- <section> -->
 					<section>
 						<h2>Web-apps aren't fast enough</h2>
 						<p>the platform needs us to change</p>
 					</section>
 					<section>
+						<h2>Our apps are:</h2>
 						<ul>
-							<li>Brittle</li>
+							<li class="fragment">Brittle</li>
 							<li class="fragment">Single-threaded</li>
 							<li class="fragment">Can't fully leverage device capabilities</li>
 						</ul>
@@ -63,6 +64,19 @@
 						<h2>A new angle</h2>
 						<p>that suits the constraints of our platform</p>
 					</section>
+				<!-- </section> -->
+
+				<section>
+					<ol>
+						<li>Offline hosted apps</li>
+						<li class="fragment">Caching previously rendered content</li>
+						<li class="fragment">Storing content remotely</li>
+						<li class="fragment">Delta updates</li>
+						<li class="fragment">Swappable parts</li>
+						<li class="fragment">Forced encapsulation</li>
+						<li class="fragment">Multi threaded architecture</li>
+						<li class="fragment">Macro memory management</li>
+					</ol>
 				</section>
 
 				<section>
@@ -77,11 +91,11 @@
 					</section>
 
 					<section>
-						<img src="/lib/images/request-flow.png"/>
+						<img src="lib/images/request-flow.png"/>
 					</section>
 
 					<section>
-						<img src="/lib/images/request-flow-render-cache.png"/>
+						<img src="lib/images/request-flow-render-cache.png"/>
 					</section>
 				</section>
 
@@ -116,7 +130,12 @@
 					</section>
 
 					<section>
-						<img src="/lib/images/layouts.png"/>
+						<img src="lib/images/layouts.png"/>
+					</section>
+
+					<section>
+						<h2>Granular telemetry</h2>
+						<p>detailed performance and engagement metrics</p>
 					</section>
 				</section>
 
@@ -132,11 +151,11 @@
 					</section>
 
 					<section class="stretch">
-						<img src="/lib/images/workers-alive.png"/>
+						<img src="lib/images/workers-alive.png"/>
 					</section>
 
 					<section class="stretch">
-						<img src="/lib/images/workers-killed.png"/>
+						<img src="lib/images/workers-killed.png"/>
 					</section>
 				</section>
 
