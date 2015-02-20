@@ -76,5 +76,5 @@ Spreading applications across multiple documents and workers we're able to break
 
 ## Conclusion
 
-The dawn the *Service Worker* will shift how web-applications are authored. Mozilla is well positioned to pitch this new approach to web-development.
+The dawn the *Service Worker* will shift how web-applications are authored. It is good timing to pitch a new approach to web-app development; an approa]ch that gives the web its best shot at competing with native.
 
