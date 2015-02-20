@@ -4,7 +4,7 @@ Web-apps aren't as fast as they could be. We're building large fragile single-th
 
 This v3 architectural proposition flips today's web-application development model on its head. Using bleeding edge web-technologies and approaching the problem form an angle that better suits the constraints of our platform.
 
-## New Concepts:
+## Concepts:
 1. **Offline caching** assets using Service Worker (js, html, css, images, etc).
 2. **Caching rendered content** for fast subsequent page loads.
 3. **Storing content in the cloud** to allow it to be used across devices.
@@ -59,6 +59,8 @@ Next time this document is requested the request will be fulfilled immediately f
 Our proposition is built around encapsulated 'modules'. These 'modules' can come in the form of front-end documents (views) and back-end workers (servers). The goal for developers to be able to hack on single part of an app without having to know how the rest of it works.
 
 Each view within an app would become its own HTML document. Parent documents would arrange these views into a layout suitable for the device's screen-size. This is good from a performance standpoint as we have enforced reflow boundaries.
+
+![](presentation/lib/images/layouts.png)
 
 Just like a traditional client/server model, each view will request its data from a corresponding worker. The interface between views and workers is agreed in advance via a 'contract', we refer to this communication channel as a 'bridge'.
 
