@@ -36,6 +36,7 @@ Apps rendered on the client are done so using Javascript. The first time a parti
 
 Next time this document is requested the request will be fulfilled immediately from the 'render cache' without having to hit the network, request data, or render HTML.
 
+![](presentation/lib/images/request-flow.png)
 ![](presentation/lib/images/request-flow-render-cache.png)
 
 ## Swappable Parts
