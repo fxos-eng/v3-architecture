@@ -72,6 +72,8 @@ Right now our apps run in a single runtime, the window. All the memory our appli
 
 Spreading applications across multiple documents and workers we're able to break our apps down into smaller chunks. When an app runs these chunks can be switched on when needed and switched-off when they're not. This opens up exciting prospects for memory management, and thus a more performant platform.
 
+![](presentation/lib/images/workers-alive.png) ![](presentation/lib/images/workers-killed.png)
+
 ## Conclusion
 
 The dawn the *Service Worker* will shift how web-applications are authored. It is good timing to pitch a new approach to web-app development; an approach that gives the web its best shot at competing with native.
