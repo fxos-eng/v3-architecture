@@ -92,3 +92,5 @@ Spreading applications across multiple documents and workers we're able to break
 
 The dawn the *Service Worker* will shift how web-applications are authored. It's a good time to pitch a new approach to web-app development; an approach that gives the web its best shot at competing with native.
 
+## [View slides](https://fxos.github.com/v3-architecture/presentation/)
+
