@@ -88,9 +88,13 @@ Spreading applications across multiple documents and workers we're able to break
 
 ![](presentation/lib/images/killing-workers.png)
 
+## Distributing concepts
+
+There's a lot of brand new ideas here; we can't expect every developer to understand, or want, to use them all. It should be a requirement that each of these concepts can be used separately, via trusted standlone libraries, so that devlopers can pick and choose a solution that best suits their needs.
+
 ## Conclusion
 
 The dawn the *Service Worker* will shift how web-applications are authored. It's a good time to pitch a new approach to web-app development; an approach that gives the web its best shot at competing with native.
 
-## [View slides](https://fxos.github.com/v3-architecture/presentation/)
+### [View slides](https://fxos.github.com/v3-architecture/presentation/)
 
