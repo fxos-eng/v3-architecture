@@ -74,7 +74,7 @@ Just like a traditional client/server model, each view will request its data fro
 
 Dividing up our views into separate panels gives us more control over telemetry. For example we can measure performance of individual views giving us more information about where regressions come from.
 
-If we are A/B testing a particular view of the app we can easily record metrics to help us decide which view is the most engagement.
+If we are A/B testing a particular view of the app we can easily record metrics to help us decide which view is the most engaging.
 
 ## Multi-threaded architecture
 

@@ -91,23 +91,25 @@
 				</section>
 
 				<section>
-					<h2>Offline caching of assets</h2>
-					<p>using Service Worker (JS, HTML, CSS, images, ...)</p>
+					<section>
+						<h2>Offline caching of assets</h2>
+						<p>using Service Worker (JS, HTML, CSS, images, ...)</p>
 
-					<aside class="notes">
-						<ul>
-							<li>Currently we depend on packaged apps</li>
+						<aside class="notes">
 							<ul>
-								<li>Proprietary</li>
-								<li>Search engine discovery</li>
-								<li>Automatic updates</li>
+								<li>Currently we depend on packaged apps</li>
+								<ul>
+									<li>Proprietary</li>
+									<li>Search engine discovery</li>
+									<li>Automatic updates</li>
+								</ul>
 							</ul>
-						</ul>
-					</aside>
-				</section>
+						</aside>
+					</section>
 
-				<section>
-					<iframe class="stretch" src="//player.vimeo.com/video/120151267" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<section>
+						<video class="stretch" src="../videos/cloud-os-offline.mp4" controls auto-play="false"/>
+					</section>
 				</section>
 
 				<section>
@@ -125,7 +127,7 @@
 					</section>
 
 					<section>
-						<iframe class="stretch" src="//player.vimeo.com/video/120151540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<video class="stretch" src="../videos/cloud-os-render-cache.mp4" controls auto-play="false"/>
 					</section>
 				</section>
 
@@ -136,17 +138,23 @@
 					</section>
 
 					<section>
-						<iframe class="stretch" src="//player.vimeo.com/video/120150973" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<video class="stretch" src="../videos/cloud-os.mp4" controls auto-play="false"/>
 					</section>
 
 					<section>
-						<iframe class="stretch" src="//player.vimeo.com/video/120150973" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<video class="stretch" src="../videos/cloud-os-sync.mp4" controls auto-play="false"/>
 					</section>
 				</section>
 
 				<section>
-					<h2>Delta updates</h2>
-					<p>small patches applied discretely</p>
+					<section>
+						<h2>Delta updates</h2>
+						<p>small patches applied discretely</p>
+					</section>
+
+					<section>
+						<video class="stretch" src="../videos/cloud-os-delta-patch.mp4" controls auto-play="false"/>
+					</section>
 				</section>
 
 				<section>
@@ -180,18 +188,20 @@
 				</section>
 
 				<section>
-					<h2>Multi-threaded architecture</h2>
-					<p>to leverage multiple cores to maximise performance</p>
+					<section>
+						<h2>Multi-threaded architecture</h2>
+						<p>to leverage multiple cores to maximise performance</p>
+					</section>
+
+					<section class="stretch">
+						<img src="lib/images/workers-alive.png"/>
+					</section>
 				</section>
 
 				<section>
 					<section>
 						<h2>Macro memory management</h2>
 						<p>shutting down parts of an application to free up resources</p>
-					</section>
-
-					<section class="stretch">
-						<img src="lib/images/workers-alive.png"/>
 					</section>
 
 					<section class="stretch">
@@ -202,17 +212,15 @@
 				<section>
 					<section>
 						<h1>Conclusion</h1>
-					</section>
-					<section>
-						<h2>Service Workers</h2>
-						<p>paving the way for brand new architecture</p>
-					</section>
-					<section>
-						<h2>Mozilla to lead the way</h2>
+
+						<aside class="notes">
+							The dawn the Service Worker will shift how web-applications are authored. It's a good time to pitch a new approach to web-app development; an approach that gives the web its best shot at competing with native.
+						</aside>
 					</section>
 
 					<section>
 						<p>github.com/fxos/v3-architecture</p>
+						<p>github.com/fxos/contacts</p>
 					</section>
 				</section>
 			</div>
