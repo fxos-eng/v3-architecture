@@ -69,26 +69,48 @@
 							</ul>
 						</aside>
 					</section>
+
+                    <section>
+                        <h2>A modern approach</h2>
+                        <p>to get the most from devices and technology</p>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>Let's use the maximun from our devices</li>
+                                <li>Let's fight against 'native' apps with new HTML5 technology</li>
+                            </ul>
+                        </aside>
+                    </section>
 				<!-- </section> -->
 
-				<section>
-					<ol>
-						<li>Offline hosted apps</li>
-						<li class="fragment">Caching previously rendered content</li>
-						<li class="fragment">Storing content remotely</li>
-						<li class="fragment">Delta updates</li>
-						<li class="fragment">Swappable parts</li>
-						<li class="fragment">Forced encapsulation</li>
-						<li class="fragment">Multi threaded architecture</li>
-						<li class="fragment">Macro memory management</li>
-					</ol>
+                <section>
+                    <section>
+                        <h3>v3 proposal</h3>
+                        <p>... rough idea, need help for detailing it!</p>
+                        <img src="lib/images/v3-overview.png"/>
+                    </section>
 
-					<aside class="notes">
-						<ul>
-							<li>The new architecture is a collection concepts</li>
-						</ul>
-					</aside>
-				</section>
+                    <section>
+                        <h2>A collection of concepts</h2>
+                        <ol>
+                            <li class="fragment">Offline hosted apps</li>
+                            <li class="fragment">Forced encapsulation</li>
+                            <li class="fragment">Caching previously rendered content</li>
+                            <li class="fragment">Storing content remotely</li>
+                            <li class="fragment">Delta updates</li>
+                            <!-- <li class="fragment">Swappable parts</li> -->
+                            <li class="fragment">Multi threaded architecture</li>
+                            <li class="fragment">Macro memory management</li>
+                        </ol>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>The new architecture is a collection concepts</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                </section>
 
 				<section>
 					<section>
@@ -111,6 +133,34 @@
 						<video class="stretch" src="../videos/cloud-os-offline.mp4" controls auto-play="false"/>
 					</section>
 				</section>
+
+                <section>
+                    <section>
+                        <h2>Forced encapsulation</h2>
+                        <p>via multiple documents and workers to minimise regressions and unify architecture</p>
+                    </section>
+
+                    <section>
+                        <h2>Every view is a document</h2>
+                    </section>
+
+                    <section>
+                        <h2>Communication via agreed contract</h2>
+                        <p>Learning from Gecko's 'IPDL'</p>
+                        <h3><a href="https://github.com/wilsonpage/runtime-bridge">https://github.com/wilsonpage/runtime-bridge</a></h3>
+                    </section>
+
+                    <section>
+                        <img src="lib/images/layouts.png"/>
+                    </section>
+
+                    <!--
+                    <section>
+                        <h2>Granular telemetry</h2>
+                        <p>detailed performance and engagement metrics</p>
+                    </section>
+                    -->
+                </section>
 
 				<section>
 					<section>
@@ -137,6 +187,10 @@
 						<p>to allow it to be used across devices</p>
 					</section>
 
+                    <section class="stretch">
+                        <img src="lib/images/agnostic-storage.png"/>
+                    </section>
+
 					<section>
 						<video class="stretch" src="../videos/cloud-os-fxa.mp4" controls auto-play="false"/>
 					</section>
@@ -152,40 +206,25 @@
 						<p>small patches applied discretely</p>
 					</section>
 
+                    <section>
+                        <p>enabling a new range of customizations, A/B testing ...</p>
+                    </section>
+
+                    <section>
+                        <img src="lib/images/v3-patching.png"/>
+                    </section>
+
 					<section>
 						<video class="stretch" src="../videos/cloud-os-delta-patch.mp4" controls auto-play="false"/>
 					</section>
 				</section>
 
-				<section>
-					<section>
-						<h2>Forced encapsulation</h2>
-						<p>via multiple documents and workers to minimise regressions and unify architecture</p>
-					</section>
-
-					<section>
-						<h2>Every view is a document</h2>
-					</section>
-
-					<section>
-						<h2>Communication via agreed contract</h2>
-						<p>Learning from Gecko's 'IPDL'</p>
-					</section>
-
-					<section>
-						<img src="lib/images/layouts.png"/>
-					</section>
-
-					<section>
-						<h2>Granular telemetry</h2>
-						<p>detailed performance and engagement metrics</p>
-					</section>
-				</section>
-
+                <!--
 				<section>
 					<h2>Swappable parts</h2>
 					<p>for partner/developer customization and A/B testing</p>
 				</section>
+				-->
 
 				<section>
 					<section>
@@ -196,6 +235,7 @@
 					<section class="stretch">
 						<img src="lib/images/workers-alive.png"/>
 					</section>
+
 				</section>
 
 				<section>
